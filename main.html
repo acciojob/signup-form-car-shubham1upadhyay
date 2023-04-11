@@ -7,7 +7,45 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<form method="post">
+		<label for="name">Name</label>
+		<input type="text" id="name" placeholder="Please Enter Name" required/><br/>
+		
+		<label for="name">Email</label>
+		<input type="email" id="email" placeholder="Please Enter Email" required/><br/>
+		
+		<label for="name">Gender</label><br/>
+		<input type="radio" id="gender_m" required/>
+		<label>Male</label><br/>
+		<input type="radio" id="gender_f" required/>
+		<label>Female</label><br/>
+
+		<label for="cars">Car Brands</label>
+		  <input list="cars" placeholder="--Please choose an option--" required>
+		  <datalist id="cars">
+		    <option value="BMW">
+		    <option value="Audi">
+		    <option value="Mercedez">
+		  </datalist> <br/>
+
+		
+		<label>Age</label>
+		<input type="number" id="age" placeholder="Please Enter Age" required/><br/>
+		
+		<label>DOB</label>
+		<input type="date" id="dob" required/><br/>
+		
+		<label>Phone Number</label>
+		<input type="number" id="tel" placeholder="XXX-XXX-XXXX" required/><br/>
+		
+		<label>Password</label>
+		<input type="password" id="password"placeholder="Please Enter Password" required/><br/>
+		
+		<label>Checkbox</label>
+		<input type="checkbox" id="tos" required/><br/>
+		<button type="submit">Submit</button>
+		
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
